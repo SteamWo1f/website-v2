@@ -1,2 +1,2 @@
 # website-v2
-A simple alterative to my liveterm website
+A simple replacement to my liveterm website
