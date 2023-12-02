@@ -210,6 +210,12 @@ table {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+.h2-img {
+    height: 60px;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
 .container h3 {
     padding-top: 30px;
 }
