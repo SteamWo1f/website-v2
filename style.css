@@ -5,37 +5,32 @@ body {
     font-family: "DM Serif Display", sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('bg.png');
+    background-image: url('bg.svg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
 h1 {
     font-size: 45px;
-    font-weight: bold;
     text-align: center;
     color: #a5adce;
 }
 .footer-link {
     font-size: 26px;
-    font-weight: bold;
     text-align: center;
 }
 h2 {
     font-size: 26px;
-    font-weight: bold;
     text-align: center;
     color: #a5adce;
 }
 h3 {
     font-size: 20px;
-    font-weight: bold;
     text-align: center;
     color: #a5adce;
 }
 h4 {
     font-size: 20px;
-    font-weight: bold;
     text-align: center;
     color: #a5adce;
 }
@@ -111,12 +106,6 @@ table {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
 }
-@media screen and (max-width: 700px) {
-    .row {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
 .column {
     flex-basis: 31.6%;
     padding: 6px;
@@ -165,19 +154,6 @@ table {
     width: 638px;
     height: 180px;
     background-color: #181926;
-}
-@media screen and (max-width: 700px) {
-    .card2 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 10px;
-        width: 540px;
-        height: 180px;
-        background-color: #181926;
-        word-wrap: break-word;
-    }
 }
 .card2-link {
     color: #a5adcb;
